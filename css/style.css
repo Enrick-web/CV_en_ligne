@@ -1,0 +1,49 @@
+.page
+{
+	width: 750px;
+	display: flex;
+	margin: auto;
+	border: 1px solid black;
+	height:950px;
+	box-shadow: 1px 1px 1px 1px;
+}
+.lateral
+{
+	width: 35%;
+	background: #00fffa;
+	text-align: justify;
+}
+.photo
+{
+
+	border-radius: 100px;
+	display: block;
+	width: auto;
+	margin: auto;
+	margin-top: 15px;
+}
+.titre
+{
+	background: blue;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+.contenu
+{
+	padding: 20px;
+}
+.icone
+{
+	display: flex;
+}
+li
+{
+	display: flex;
+
+}
+
+li div
+{
+	padding-left: 30px;
+}
