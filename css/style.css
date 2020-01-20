@@ -15,7 +15,6 @@ h1 /* Police défini sur les titres */
      font-family: 'advent_prolight';
 }
 
-
 .page
 {
 	width: 1190px;
@@ -51,7 +50,7 @@ p
 	text-align: center;
 	color: rgba(41,182,246 ,1);
 	font-size: 30px;
-	height: 40px;
+	height: 50px;
 	padding: auto;
 }
 .icone
@@ -72,10 +71,6 @@ p
 	padding-right: 50px;
 	padding-bottom: 300px;
 }
-#loisir
-{
-
-}
 
 /* Contenu */
 div li
@@ -83,22 +78,18 @@ div li
 	list-style: none;
 	display: flex;
 }
-
 li p
 {
 	width: 300px;
 }
-
 #info
 {
 	padding: 40px;
 }
-
 #info h1
 {
-	font-size: 65px;
+	font-size: 60px;
 }
-
 .prenom
 {
 	color: rgba(41,182,246 ,1);
@@ -106,7 +97,6 @@ li p
 
 .info, h2
 {
-	padding-top: 0;
 	font-size: 35px;
 	font-family: 'advent_prolight';
 }
@@ -124,9 +114,4 @@ li p
 .recos
 {
 	padding: 40px;
-}
-
-.categorie
-{
-	display: flex;
 }
