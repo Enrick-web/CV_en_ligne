@@ -140,44 +140,47 @@ li
 .experience
 {
 	padding: 40px;
-	height: 650px;
+	height: 550px;
 }
 
-.recos
+.recommande
 {
 	padding: 40px;
+	height: 200px;
 }
 .categorie
 {
-	font-size: 20px;
-	border-bottom: 1px black;
+	font-size: 20px;	
 }
 .categorie svg
 {
-	color: rgba(41,182,246 ,1);
+	color: rgb(41,182,246);
 	padding-right: 20px;
 }
 .categorie h2
 {
 	border-bottom: 1px solid rgb(41,182,246);
 }
-.recommande
+.recommandation
 {
 	display: flex;
 }
 .avis
 {
 	width: 50%;
-	padding-left: 50px;
+	padding-left: 40px;
 }
 
 
 /* Version mobile */
-@media and screen (max-width: 1280px)
+@media and screen (max-width: 1024px)
 {
-	.page
+	body
 	{
-		width: 490px;
+		width: auto;
+	}
+	section
+	{
 		flex-direction: column;
 	}
 }
