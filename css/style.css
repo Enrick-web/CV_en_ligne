@@ -10,11 +10,10 @@
     font-style: normal;
 
 }
-h1 /* Police défini sur les titres */
+h1, h2 /* Police défini sur les titres */
 {
      font-family: 'advent_prolight';
 }
-
 .page
 {
 	width: 1190px;
@@ -25,20 +24,20 @@ h1 /* Police défini sur les titres */
 }
 p
 {
-	font-size: 20px;
+	font-size: 18px;
 }
 /* Barre latérale */
 .lateral
 {
-	width: 390px;
-	background: rgba(41,182,246 ,1);
+	width: 380px;
+	background: rgb(41,182,246);
 }
 .photo
 {
 
 	border-radius: 500px;
 	display: block;
-	width: 230px;
+	width: 200px;
 	margin: auto;
 	margin-top: 70px;
 	margin-bottom: 40px;
@@ -46,31 +45,38 @@ p
 }
 .titre
 {
-	background: rgba(38,50,56 ,1);
+	background: rgb(38,50,56);
 	text-align: center;
-	color: rgba(41,182,246 ,1);
+	color: rgb(41,182,246);
 	font-size: 35px;
 	height: 50px;
+	margin: 0;
 }
 #contact
 {
 	padding-left: 40px;
 }
-#about
+#propos
 {
 	text-align: justify;
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-bottom: 350px;
+	padding-bottom: 500px;
 }
 .icone
 {
 	display: flex;
 	justify-content: space-around;
+	padding: 10px;
 }
-.icone p
+
+.icone svg
 {
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 50%;
 	font-size: 35px;
+
 }
 
 
@@ -81,20 +87,28 @@ p
 #info
 {
 	padding: 40px;
+	padding-top: 120px;
+	padding-left: 70px;
 }
 #info h1
 {
 	font-size: 60px;
+	margin: 1px;
 }
 .prenom
 {
 	color: rgba(41,182,246 ,1);
 }
 
-.info+ h2
+#info h2
 {
 	font-size: 25px;
 	font-family: 'advent_prolight';
+	margin: 1px;
+}
+.dev
+{
+	border-bottom: 1px solid rgb(41,182,246);
 }
 
 /*FORMATION*/
@@ -106,15 +120,15 @@ div li
 li
 {
 	display: flex;
-	width: 600px;
+	width: 100%;
 }
 .date
 {
-	width: 300px;
+	width: 350px;
 }
 .valeur
 {
-	width: 700px;
+	width: 400px;
 }
 
 .formation
@@ -141,9 +155,29 @@ li
 .categorie svg
 {
 	color: rgba(41,182,246 ,1);
+	padding-right: 20px;
 }
-footer
+.categorie h2
+{
+	border-bottom: 1px solid rgb(41,182,246);
+}
+.recommande
 {
 	display: flex;
-	text-align: center;
+}
+.avis
+{
+	width: 50%;
+	padding-left: 50px;
+}
+
+
+/* Version mobile */
+@media and screen (max-width: 1280px)
+{
+	.page
+	{
+		width: 490px;
+		flex-direction: column;
+	}
 }
