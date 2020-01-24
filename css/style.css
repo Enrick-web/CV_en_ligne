@@ -10,6 +10,10 @@
     font-style: normal;
 
 }
+body
+{
+	margin: 0;
+}
 h1, h2 /* Police défini sur les titres */
 {
      font-family: 'advent_prolight';
@@ -17,7 +21,6 @@ h1, h2 /* Police défini sur les titres */
 .page
 {
 	width: 1190px;
-	height:1684px;
 	display: flex;
 	margin: auto;
 	border: 1px solid black;
@@ -65,7 +68,7 @@ p
 	margin-top: 30px;
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-bottom: 380px;
+	padding-bottom: 400px;
 }
 /*LOISIRS*/
 #loisir
@@ -167,7 +170,6 @@ li
 }
 div h2
 {
-	margin-top: ;
 	margin-bottom: 10px;
 }
 /*EXPERIENCE PROFESSIONELLE*/
@@ -212,17 +214,31 @@ div h2
 	.page
 	{
 		width: auto;
-		flex-direction: column-reverse;
+		flex-direction: column;
 		height: auto;
 		border: none;
 	}
-	.lateral
+	#info
+	{
+		margin: 20px;
+	}
+	.contenu, .lateral
 	{
 		width: auto;
 	}
-	.contenu
+	.experience, .formation, .bloc-recommandation
 	{
-		width: auto;
+		height: auto;
+		padding: 10px;
+	}
+	.date
+	{
+		width: 100%;
+		
+	}
+	.valeur
+	{
+		width: 100%;
 	}
 	section
 	{
@@ -235,5 +251,10 @@ div h2
 	.recommandation
 	{
 		flex-direction: column;
+	}
+	.avis
+	{
+		width: 100%;
+		text-align: center;
 	}
 }
