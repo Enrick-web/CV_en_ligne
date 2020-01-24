@@ -35,12 +35,12 @@ p
 .photo
 {
 
-	border-radius: 500px;
+	border-radius: 150px;
 	display: block;
-	width: 200px;
+	width: 220px;
 	margin: auto;
 	margin-top: 70px;
-	margin-bottom: 40px;
+	margin-bottom: 45px;
 	box-shadow: 0px 0px 10px black;
 }
 .titre
@@ -52,22 +52,33 @@ p
 	height: 50px;
 	margin: 0;
 }
+/*CONTACT*/
 #contact
 {
-	padding-left: 40px;
+	margin-left: 40px;
+	margin-top: 35px;
+	margin-bottom: 55px;
 }
 #propos
 {
 	text-align: justify;
+	margin-top: 30px;
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-bottom: 500px;
+	padding-bottom: 380px;
+}
+/*LOISIRS*/
+#loisir
+{
+	padding: 10px;
+	vertical-align: middle;
 }
 .icone
 {
 	display: flex;
 	justify-content: space-around;
-	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .icone svg
@@ -75,20 +86,30 @@ p
 	border: 1px solid black;
 	padding: 10px;
 	border-radius: 50%;
-	font-size: 35px;
-
+	font-size: 32px;
 }
 
-
-
-/* Contenu */
-
-/* Identité */
-#info
+/* CONTENUE */
+.contenu
 {
-	padding: 40px;
-	padding-top: 120px;
-	padding-left: 70px;
+	width: auto;
+}
+div h2
+{
+	margin-bottom: 20px;
+}
+.poste
+{
+	margin: 0px;
+}
+
+	/*--IDENTITE-- */
+#info
+{	
+	margin: 40px;
+	margin-top: 115px;
+	margin-bottom: 145px;
+	margin-left: 65px;
 }
 #info h1
 {
@@ -110,8 +131,13 @@ p
 {
 	border-bottom: 1px solid rgb(41,182,246);
 }
-
-/*FORMATION*/
+	/*--FORMATION--*/
+.formation
+{	
+	padding-left: 65px;
+	padding-right: 65px;
+	height: 450px;
+}
 div li
 {
 	list-style: none;
@@ -124,29 +150,32 @@ li
 }
 .date
 {
-	width: 350px;
+	width: 310px;
 }
 .valeur
 {
 	width: 400px;
 }
-
-.formation
+.valeur h2
 {
-	padding: 40px;
-	height: 400px;
+	margin-bottom: 5px;
 }
-
+.valeur p
+{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+div h2
+{
+	margin-top: ;
+	margin-bottom: 10px;
+}
+/*EXPERIENCE PROFESSIONELLE*/
 .experience
 {
-	padding: 40px;
-	height: 550px;
-}
-
-.recommande
-{
-	padding: 40px;
-	height: 200px;
+	height: 600px;
+	padding-left: 65px;
+	padding-right: 65px;
 }
 .categorie
 {
@@ -159,7 +188,14 @@ li
 }
 .categorie h2
 {
+	padding-bottom: 10px;
 	border-bottom: 1px solid rgb(41,182,246);
+}
+/*RECOMMANDATIONS*/
+.bloc-recommandation
+{
+	padding-left: 65px;
+	padding-right: 65px;
 }
 .recommandation
 {
@@ -168,18 +204,35 @@ li
 .avis
 {
 	width: 50%;
-	padding-left: 40px;
 }
 
-
 /* Version mobile */
-@media and screen (max-width: 1024px)
+@media screen and (max-width: 1124px)
 {
-	body
+	.page
+	{
+		width: auto;
+		flex-direction: column-reverse;
+		height: auto;
+		border: none;
+	}
+	.lateral
+	{
+		width: auto;
+	}
+	.contenu
 	{
 		width: auto;
 	}
 	section
+	{
+		flex-direction: column;
+	}
+	li
+	{
+		flex-direction: column;
+	}
+	.recommandation
 	{
 		flex-direction: column;
 	}
