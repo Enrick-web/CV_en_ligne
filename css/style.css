@@ -62,19 +62,19 @@ p
 	margin-top: 35px;
 	margin-bottom: 55px;
 }
+/* À PROPOS */
 #propos
 {
 	text-align: justify;
 	margin-top: 30px;
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-bottom: 400px;
+	padding-bottom: 250px;
 }
 /*LOISIRS*/
 #loisir
 {
-	padding: 10px;
-	vertical-align: middle;
+	padding: 20px;
 }
 .icone
 {
@@ -87,15 +87,15 @@ p
 .icone svg
 {
 	border: 1px solid black;
-	padding: 10px;
-	border-radius: 50%;
-	font-size: 32px;
+	padding: 15px;
+	border-radius: 100%;
+	font-size: 45px;
 }
 
 /* CONTENUE */
 .contenu
 {
-	width: auto;
+	width: 810px;
 }
 div h2
 {
@@ -111,12 +111,12 @@ div h2
 {	
 	margin: 40px;
 	margin-top: 115px;
-	margin-bottom: 145px;
+	margin-bottom: 140px;
 	margin-left: 65px;
 }
 #info h1
 {
-	font-size: 60px;
+	font-size: 55px;
 	margin: 1px;
 }
 .prenom
@@ -139,7 +139,7 @@ div h2
 {	
 	padding-left: 65px;
 	padding-right: 65px;
-	height: 450px;
+	height: 400px;
 }
 div li
 {
@@ -157,7 +157,8 @@ li
 }
 .valeur
 {
-	width: 400px;
+	width: 350px;
+	text-align: justify;
 }
 .valeur h2
 {
@@ -216,7 +217,6 @@ div h2
 		width: auto;
 		flex-direction: column;
 		height: auto;
-		border: none;
 	}
 	#info
 	{
@@ -234,7 +234,6 @@ div h2
 	.date
 	{
 		width: 100%;
-		
 	}
 	.valeur
 	{
