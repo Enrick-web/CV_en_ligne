@@ -146,14 +146,34 @@ div li
 	list-style: none;
 	display: flex;
 }
+ul
+{
+	padding: 0;
+}
 li
 {
 	display: flex;
 	width: 100%;
 }
-.date
+.date, .date1
 {
-	width: 290px;
+	width: 310px;
+}
+.date svg
+{
+	font-size: 15px;
+	color: rgb(41,182,246);
+	padding-right: 10px;
+}
+.date1 svg
+{
+	font-size: 10px;
+	color: rgb(41,182,246);
+	padding-right: 15px;
+}
+.lieu
+{
+	padding-left: 25px;
 }
 .valeur
 {
