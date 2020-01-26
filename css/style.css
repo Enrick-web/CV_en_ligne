@@ -238,7 +238,7 @@ div h2
 		flex-direction: column;
 		height: auto;
 	}
-	#info
+	#info,
 	{
 		margin: 20px;
 	}
